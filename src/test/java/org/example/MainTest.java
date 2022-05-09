@@ -18,4 +18,14 @@ class MainTest {
         assertEquals(Main.returnThree(), result);
     }
 
+    @Test
+    void reverseString() {
+
+        assertEquals(Main.reverseString("hello"), "olleh");
+    }
+
+    @Test
+    void readInput() {
+//        assertEquals(Main.readInput() , "Your name is Safia");
+    }
 }

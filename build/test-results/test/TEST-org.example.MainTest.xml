@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-09T11:39:12" hostname="Safias-MacBook-Pro.local" time="0.019">
+<testsuite name="org.example.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-09T12:31:40" hostname="Safias-MacBook-Pro.local" time="0.023">
   <properties/>
-  <testcase name="helloWorld()" classname="org.example.MainTest" time="0.019"/>
+  <testcase name="readInput()" classname="org.example.MainTest" time="0.023"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
