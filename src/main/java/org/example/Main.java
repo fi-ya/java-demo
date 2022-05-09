@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        helloWorld();
-        returnThree();
-        reverseString("hello");
-        readInput();
+//        helloWorld();
+//        returnThree();
+//        reverseString("hello");
+//        readInput();
+        fizzBuzz();
+
 
     }
 
@@ -31,5 +33,23 @@ public class Main {
         System.out.print("Name: ");
         String yourName = scanner.next();
         System.out.println("Your name is " + yourName);
+    }
+
+    public static void fizzBuzz() {
+        //  to read data from terminal
+        Scanner scanner = new Scanner(System.in);
+        //   message for user to enter number;
+        System.out.print("Number: ");
+        // read the number
+        int number = scanner.nextInt();
+
+        if (number % 15 == 0 )
+            System.out.println("FizzBuzz");
+        else if (number % 5 == 0)
+            System.out.println("Fizz");
+        else if (number % 3 == 0)
+            System.out.println("Buzz");
+        else
+            System.out.println(number);
     }
 }
