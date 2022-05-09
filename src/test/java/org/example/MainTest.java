@@ -14,7 +14,7 @@ class MainTest {
 
     @Test
     void returnThree() {
-        int result = 2;
+        int result = 3;
         assertEquals(Main.returnThree(), result);
     }
 

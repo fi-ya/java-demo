@@ -7,9 +7,9 @@ public class Main {
     }
 
     public static String helloWorld(){
-      String result = System.out.println("Hello world!");
-      return result;
-//        return String; System.out.println("Hello world!");
+//      System.out.println("Hello world!");
+//        String result = "Hello world!";
+        return "Hello world!";
     }
 
     public static int returnThree(){
